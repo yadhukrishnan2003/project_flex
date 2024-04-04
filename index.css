@@ -7,7 +7,7 @@
 }
 .maindiv{
     max-width: 100%;
-    max-height: 1117px;
+    
 }
 
 .site_id {
@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     font-weight: 700;
+    padding-left: 76px ;
 
 }
 .pic img{
@@ -46,7 +47,8 @@
     display: flex;
 
     background-color: #e6f2ff;
-    padding: 0px 173px;
+    padding: 0px 100px;
+    margin-left: 0px;
 }
 
 .link ul a {
@@ -112,7 +114,7 @@
     padding-left: 120px;
 }
 
-.section1 {
+.home_page {
     display: flex;
     align-items: center;
     background-color: #e6f2ff;
@@ -120,65 +122,36 @@
 }
 
 .navigator {
-    padding: 0px 110px;
-    padding-left: 333px;
+    padding-left: 340px;
 }
 
-.pic {
-    padding-top: 20px;
-}
 
-.emgcy {
-    width: 328px;
-    height: 292px;
-    padding: 0px;
-}
-
-.box1 {
-    max-width: 328px;
-    width: 260px;
-    max-height: 292px;
-    box-shadow: 0px 4px 8px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 40px;
-    gap: 20px;
-}
-
-.box2 {
-    max-width: 328px;
-    width: 260px;
-    max-height: 292px;
-    box-shadow: 0px 4px 8px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 40px;
-    gap: 20px;
-}
-
-.box3 {
-    max-width: 328px;
-    width: 260px;
-    max-height: 292px;
-    box-shadow: 0px 4px 8px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 40px;
-    gap: 20px;
-}
 
 .box {
+    max-width: 328px;
+    width: 260px;
+    max-height: 292px;
+    box-shadow:  0px 13px 19px 0px #00000012;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: 20px;
+}
+
+.boxes {
     display: flex;
     justify-content: space-evenly;
     max-width: 1224px;
     gap: 30px;
     padding: 0px 147px;
 }
+.boxes p{
+    font-size: 14px;
+    font-weight:400 ;
+}
 
-.box1pic {
+.boxicon {
     width: 70px;
     height: 76px;
     border-radius: 10px;
@@ -189,12 +162,39 @@
 
 }
 
-.box1pic span {
+.boxicon span {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.boxicon_dental{
+    width: 70px;
+    height: 76px;
+    border-radius: 10px;
+    background-color: #40BB15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxicon_dental span {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.boxicon_cancercare{
+    width: 70px;
+    height: 76px;
+    border-radius: 10px;
+    background-color: #3C403D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxicon_cancercare{
     color: #FFFFFF;
     font-size: 40px;
 }
 
-.material-symbols-outlined {
+
+.box .material-symbols-outlined {
     justify-content: space-around;
     font-size: 37px;
     font-variation-settings:
@@ -203,7 +203,7 @@
         'opsz' 48;
 }
 
-.box1cntnt {
+.boxcntnt {
     display: flex;
     flex-direction: column;
 }
@@ -213,7 +213,7 @@ p {
     width: 222px;
 }
 
-.box1head::after {
+.boxhead::after {
     content: "";
     width: 50px;
     height: 2px;
@@ -222,67 +222,11 @@ p {
     gap: 20px;
     margin-top: 25px;
 }
-.box2pic {
-    max-width: 70px;
-    height: 76px;
-    border-radius: 10px;
-    background-color: #40BB15;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box2pic span {
-    color: #FFFFFF;
-    font-size: 40px;
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-.box2head::after {
-    content: "";
-    width: 50px;
-    height: 2px;
-    display: flex;
-    background-color: #E74040;
-    gap: 20px;
-    margin-top: 25px;
-}
-.box3pic {
-    max-width: 70px;
-    height: 76px;
-    border-radius: 10px;
-    background-color: #3C403D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box3pic span {
-    color: #FFFFFF;
-    font-size: 40px;
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-.box3head::after {
-    content: "";
-    width: 50px;
-    height: 2px;
-    display: flex;
-    background-color: #dd0c0c;
-    gap: 20px;
-    margin-top: 25px;
-}
+
+
 .cntnt2{
     width: 1200px;
-    height: 535px;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -298,7 +242,6 @@ p {
 }
 .pic2{
     width: 1050px;
-    max-height: 535.65px;
     gap: 30px;
     margin-left: 40px;
 }
@@ -404,9 +347,11 @@ p {
    
 
 }
-img{
+.home_page img {
     max-width: 100%;
     max-height: 696px;
+    padding-left: 150px;
+    padding-top: 16px
 }
 .container1{
     background-color: #FFFFFF;
@@ -559,12 +504,10 @@ img{
 }
 .section4text{
     width: 691px;
-    height: 134px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 236px;
-    padding-top: 76px;
+    padding: 65px 0px 75px 256px;
 
 
 }
@@ -593,8 +536,7 @@ img{
 .frames{
     display: flex;
     gap: 10px;
-    padding-left: 238px;
-    height: 1000px;
+    justify-content: center;
     
 }
 .frame1, .frame2, .frame3{
@@ -706,10 +648,7 @@ img{
     color: #737373;
 }
 .sec5bace{
-    width: 1005px;
-    height: 798.01px;
-    padding-left: 238px;
-    padding-right: 160px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -723,36 +662,39 @@ img{
 }
 .section5text{
     width: 691px;
-    height: 134px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 185px 0px 65px 259px;
     
 }
 .rating{
     display: flex;
     gap: 30px;
-    width: 1005px;
-    height: 317.01px;
+    max-width: 100%;
+    justify-content: center;
 }
-.rate1{
-    width: 256px;
-    height: 217px;
-    padding: 0px
+.review{
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 77px;
+    gap: 15px;
+    
+
 }
 .parastar{
     width: 156px;
-    height: 139px;
-    padding: 12px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 .ratestar{
     width: 130px;
-    height: 22px;
     display: flex;
     align-items: center;
+    padding-right: 41px;
 }
 .filled_star .material-symbols-outlined {
     font-size: 28px;
@@ -776,15 +718,29 @@ img{
 .nonfilled_star .material-symbols-outlined{
     font-size: 31px;
 }
-.rate_write{
+.review_note{
     width: 159px;
     height: 102px;
     font-weight: 400;
     font-size: 14px;
 
 }
-.pro_pic{
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 12px;
+}
+.profile_pic{
     width: 50px;
     height: 50px;
 
+}
+.profile_name h5{
+    font-size: 12px;
+    color: #23A6F0;
+}
+.profile_name h6{
+    font-size: 10px;
+    font-weight: 400;
 }
