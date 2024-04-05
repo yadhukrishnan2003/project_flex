@@ -9,6 +9,9 @@
     max-width: 100%;
     
 }
+.frond_page{
+    position: relative;
+}
 
 .site_id {
     font-size: 24px;
@@ -43,7 +46,7 @@
 }
 
 .header {
-    max-width: 1322px;
+    max-width: 100%;
     display: flex;
 
     background-color: #e6f2ff;
@@ -122,34 +125,35 @@
 }
 
 .navigator {
-    padding-left: 340px;
+    padding-left: 280px;
 }
 
 
 
 .box {
-    max-width: 328px;
-    width: 260px;
-    max-height: 292px;
+    max-width:100%;
     box-shadow:  0px 13px 19px 0px #00000012;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 40px;
     gap: 20px;
+    background-color: #FFFFFF;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .boxes {
     display: flex;
     justify-content: space-evenly;
-    max-width: 1224px;
+    max-width:100%;
     gap: 30px;
-    padding: 0px 147px;
+    padding: 0px 0px;
+    position: absolute;
+    top: 78%;
+    left: 11%;
 }
-.boxes p{
-    font-size: 14px;
-    font-weight:400 ;
-}
+
 
 .boxicon {
     width: 70px;
@@ -208,9 +212,11 @@
     flex-direction: column;
 }
 
-p {
+ .box p {
     color: #737373;
     width: 222px;
+    font-size: 14px;
+    font-weight:400 ;
 }
 
 .boxhead::after {
@@ -225,15 +231,15 @@ p {
 
 
 .cntnt2{
-    width: 1200px;
+    max-width: 100%;
     
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 .section2{
-    margin: 140px;
-    margin-bottom: -32px;
+    margin: 195px 178px 0px 147px;
+    
 }
 .section2 h2{
     color: #252B42;
@@ -281,12 +287,9 @@ p {
     color: #23A6F0;
 }
 .logo{
-    width: 1054px;
-    height: 175px;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 25px;
     gap: 31px;
     display: flex;
-    padding-left: 51px;
     align-items: center;
 }
 .material-symbols-outlined {
@@ -297,15 +300,11 @@ p {
   'opsz' 24
 }
 .section3{
-    height: 1236px;
     background-color: #252B42;
 }
 .outrdiv{
-    max-width: 1050px;
-    height: 1156px;
+    max-width: 100%;
     gap: 80px;
-    padding: 160px 0px 160px 0px;
-    padding-left: 195px;
 
 }
 .section3 h6{
@@ -324,17 +323,18 @@ p {
     
 }
 .inrdiv1{
-    width: 1044px;
-    height: 134px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 65px 0px 75px 245px;
 }
-.container{
-    width: 1045px;
-    height: 622px;
+.fecilities{
+    max-width: 100%;
     gap: 30px;
     display: flex;
+    justify-content: center;
+    padding-bottom: 185px;
 }
 .cardtext{
     padding-left: 15px;
@@ -350,13 +350,13 @@ p {
 .home_page img {
     max-width: 100%;
     max-height: 696px;
-    padding-left: 150px;
+    padding-left: 94px;
     padding-top: 16px
 }
-.container1{
+.container{
     background-color: #FFFFFF;
-    width: 321px;
-    height: 635px;
+    width: 340px;
+
 }
 .engdep{
     width: 155px;
@@ -375,7 +375,7 @@ p {
     padding: 5px;
     background-color: #252B42;
 }
-.container1text{
+.containertext{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -392,20 +392,18 @@ p {
     width: 19px;
 }
 .grp h5{
-    font-weight: 131px;
+    
     color: #252B42;
     font-size: 16px;
 }
 .we p{
-    width: 280px;
-    height: 60px;
+    max-width: 100%;
     font-weight: 500;
     size: 14px;
     color: #737373;
 }
 .scale1{
-    width: 105px;
-    height: 24px;
+    
     display: flex;
     align-items: center;
     gap: 10px;
@@ -449,6 +447,7 @@ p {
     align-items: center;
     gap: 0px;
     border: #23A6F0;
+    padding-bottom: 15px;
 
 }
 .lmradius .filled_button{
@@ -458,19 +457,9 @@ p {
     border-radius: 37px;
 
 }
-.container2{
-    background-color: #FFFFFF;
-    width: 321px;
-    height: 635px;
-}
 .card2 img{
     width: 100%;
     height: 0px;
-}
-.container3{
-    background-color: #FFFFFF;
-    width: 321px;
-    height: 635px;
 }
 
 .card1_img{
@@ -520,7 +509,6 @@ p {
 }
 .paragr p{
     width: 469px;
-    height: 30px;
     font-size: 14px;
     font-weight: 400;
 }
@@ -661,7 +649,7 @@ p {
      color: #252B42;
 }
 .section5text{
-    width: 691px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -743,4 +731,110 @@ p {
 .profile_name h6{
     font-size: 10px;
     font-weight: 400;
+}
+.newsletter{
+    max-width: 100%;
+    background:#ECF4FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+.newsletter .section5text{
+    align-items: center;
+    padding-left: 0px;
+    gap: 10px;
+    padding-top: 125px;
+}
+.newsletter .paragr {
+    align-items: center;
+    
+}
+input{
+    border: none; 
+    padding: 14px 210px 14px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.subscribe{
+    margin: 0px;
+    padding-bottom: 80px;
+    display: flex;
+   
+   
+}
+.more_info{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+    gap: 55px;
+}
+.about a{
+    color: #737373;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.about ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.about li{
+    list-style: none;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact li{
+    list-style: none;
+}
+.contact a{
+    text-decoration: none;
+    color: #737373;
+    display: flex;
+
+    align-items: center;
+    font-size: 14px;
+
+}
+.contact ul{
+    padding: 0px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact .material-symbols-outlined{
+    color: #23A6F0;
+    font-size: 25px;
+    font-weight: 700;
+
+
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 24
+}
+.online_platforms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+.online_platforms p {
+    font-size: 14px;
+    color: #737373;
 }
