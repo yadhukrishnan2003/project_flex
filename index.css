@@ -475,8 +475,6 @@
 .dwnldicon .material-symbols-outlined {
 
     color: #3C403D;
-    width: 16px;
-    height: 16px;
     font-weight: 700;
 }
 
@@ -842,7 +840,6 @@ input {
 .more_info {
     display: flex;
     max-width: 100%;
-    padding: 50px 0px 0px 242px;
     gap: 95px;
 }
 
@@ -913,9 +910,6 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 75px;
-    padding-bottom: 40px;
-    padding-left: 78px;
     width: 1050px;
 }
 
