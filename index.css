@@ -1,20 +1,22 @@
 * {
     font-family: Montserrat;
     max-width: 100%;
-    margin: 0%;
+    
     font-weight: 700;
 }
 
 .container {
-    max-width: 100%;
+    max-width: 1440px;
     margin: auto;
+    
+    
 }
 
-/* .box_wraper {
+ .box_wraper {
     display: flex;
     align-items: center;
     gap: 37px;
-} */
+} 
 
 .frond_page {
     position: relative;
@@ -132,8 +134,8 @@
     gap: 30px;
     padding: 0px 0px;
     position: absolute;
-    top: 78%;
-    left: 13%;
+    top: -51%;
+    left: 7%;
 }
 
 .box {
@@ -149,51 +151,31 @@
     padding-right: 60px;
 }
 
-.boxicon {
+ .boxicon {
+    
     width: 70px;
     height: 76px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 40px;
+
+}
+.boxicon:nth-child(1) {
     background-color: #23A6F0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+} 
+.activities .boxicon:nth-child(2){
+   background-color: #40BB15;
 }
-
-.boxicon span {
-    color: #FFFFFF;
-    font-size: 40px;
-}
-
-.boxicon_dental {
-    width: 70px;
-    height: 76px;
-    border-radius: 10px;
-    background-color: #40BB15;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.boxicon_dental span {
-    color: #FFFFFF;
-    font-size: 40px;
-}
-
-.boxicon_cancercare {
-    width: 70px;
-    height: 76px;
-    border-radius: 10px;
+.boxicon:nth-child(3) {
     background-color: #3C403D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
+ 
 
-.boxicon_cancercare {
-    color: #FFFFFF;
-    font-size: 40px;
-}
 
 .box .material-symbols-outlined {
     justify-content: space-around;
@@ -227,6 +209,7 @@
     margin: 195px 178px 0px 147px;
     display: flex;
     align-items: center;
+    position: relative;
 
 }
 
@@ -256,6 +239,7 @@
 
 .activities h2 {
     color: #252B42;
+    font-size: 40px;
 }
 
 .activities .para {
@@ -265,7 +249,7 @@
     color: #737373;
 }
 
-.more {
+.activities .hollow_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,6 +257,7 @@
     height: 24px;
     gap: 10px;
     color: #23A6F0;
+    background-color:transparent;
 }
 
 .logo {
@@ -325,6 +310,7 @@
 
 .fecility_advice h2 {
     color: #FFFFFF;
+    font-size: 40px;
 }
 
 .fecility_advice .para p {
@@ -357,11 +343,18 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    color: #252B42;
     left: 0;
     right: 0;
     bottom: 24px;
     gap: 10px;
+}
+.card_icon button{
+    background-color: #FFFFFF;
+    width: 47px;
+    height: 47px;
+    border-radius: 45px;
+    border: none;
+    padding-top: 7px;
 }
 
 .iconbg {
@@ -375,11 +368,23 @@
     padding-top: 5px;
 
 }
+ .card_icon :nth-child(3) {
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 
-.i .material-symbols-outlined {
+  
+}
+
+
+.card_icon .material-symbols-outlined {
 
     font-variation-settings:
-
+        
         'wght' 400,
         'GRAD' 0,
         'opsz' 24
@@ -982,7 +987,4 @@ input {
 }
 .link ul a:hover{
     color: #23A6F0;
-}
-.services:hover{
-    background-color:blueviolet;
 }
