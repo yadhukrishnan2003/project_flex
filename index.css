@@ -1,12 +1,12 @@
 body {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
 }
 * {
     font-family: Montserrat;
     max-width: 100%;
     font-weight: 700;
-    margin: 0;
+    
 }
 
 .container {
@@ -16,17 +16,12 @@ body {
     
 }
 
- .box_wraper {
-    display: flex;
-    align-items: center;
-    gap: 37px;
-} 
-
 .frond_page {
     position: relative;
     background-color: #e6f2ff;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .header {
@@ -46,8 +41,11 @@ body {
 
 }
 
-.login_join {
+.button {
     padding-left: 280px;
+}
+ul{
+    margin: 0;
 }
 
 .link ul a {
@@ -81,7 +79,6 @@ body {
 .home_page {
     display: flex;
     align-items: center;
-
     padding: 0px 56px;
 }
 
@@ -91,26 +88,30 @@ body {
     gap: 20px;
     padding-bottom: 170px;
     padding-left: 120px;
+    
 }
 
 .content_intro h3 {
     color: #23A6F0;
     font-size: 16px;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .home_page h1 {
     font-size: 58px;
     width: 542px;
+    margin: 0;
 
 }
 
 .home_page h2 {
     color: #737373;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     width: 338px;
     padding-top: 20px;
+    margin: 0;
 }
 
 .home_page .hollow_button {
@@ -196,7 +197,8 @@ body {
     color: #737373;
     width: 222px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
+    margin: 0;
 }
 
 .box_title::after {
@@ -246,6 +248,7 @@ body {
 .activities h2 {
     color: #252B42;
     font-size: 40px;
+    margin: 0;
 }
 
 .activities .para {
@@ -259,6 +262,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
     width: 107px;
     height: 24px;
     gap: 10px;
@@ -284,11 +288,13 @@ body {
 }
 
 .material-symbols-outlined {
+    
     font-variation-settings:
         'FILL' 0,
         'wght' 100,
         'GRAD' 0,
         'opsz' 24
+
 }
 
 
@@ -307,16 +313,19 @@ body {
     justify-content: space-evenly;
     padding: 65px 0px 75px 0px;
     gap: 10px;
+    margin: 0;
 }
 
 .fecility_advice h6 {
     color: #23A6F0;
+    margin: 0;
 
 }
 
 .fecility_advice h2 {
     color: #FFFFFF;
     font-size: 40px;
+    margin: 0;
 }
 
 .fecility_advice .para p {
@@ -325,6 +334,7 @@ body {
     font-size: 14px;
     color: #FFFFFF;
     font-weight: 400;
+    margin: 0;
 }
 
 .fecilities {
@@ -440,12 +450,14 @@ body {
     font-weight: 400;
     font-size: 12px;
     width: 19px;
+    margin: 0;
 }
 
 .cardtext h5 {
 
     color: #252B42;
     font-size: 16px;
+    margin: 0;
 }
 
 .cardtext p {
@@ -453,6 +465,7 @@ body {
     font-weight: 500;
     size: 14px;
     color: #737373;
+    margin: 0;
 }
 
 .card_img::before {
@@ -554,16 +567,20 @@ body {
 
 .advice h6 {
     color: #23A6F0;
+    margin: 0;
 }
 
 .advice h2 {
     color: #252B42;
+    margin: 0;
 }
 
 .advice p {
     width: 469px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
+    color: #737373;
+    margin: 0;
 }
 
 .pricing {
@@ -614,6 +631,7 @@ body {
 .information p {
     color: #737373;
     font-weight: 400;
+    margin: 0;
 
 }
 
@@ -742,9 +760,6 @@ body {
 
 .ratestar {
     width: 159px;
-    display: flex;
-    align-items: center;
-    padding-right: 24px;
 }
 
 .review .star .material-symbols-outlined {
@@ -752,6 +767,15 @@ body {
     color: #F3CD03;
     font-variation-settings:
         'FILL' 1,
+        'wght' 200,
+        'GRAD' 0,
+        'opsz' 24
+}
+.review .star :nth-child(5).material-symbols-outlined {
+    font-size: 28px;
+    color: #F3CD03;
+    font-variation-settings:
+        'FILL' 0,
         'wght' 200,
         'GRAD' 0,
         'opsz' 24
@@ -764,11 +788,16 @@ body {
     background-color:none;
 }
 
-.review .para  {
+.review p  {
     width: 159px;
-    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-align: center;
     font-size: 14px;
     color: #737373;
+    margin: 0;
 
 }
 
@@ -779,7 +808,7 @@ body {
     padding-right: 12px;
 }
 
-.profile_pic {
+.profile img {
     width: 50px;
     height: 50px;
 }
@@ -787,11 +816,20 @@ body {
 .profile_name h5 {
     font-size: 12px;
     color: #23A6F0;
+    margin: 0;
 }
 
 .profile_name h6 {
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 700;
+    color: #252B42;
+    margin: 0px;
+}
+.details{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 }
 
 .newsletter {
@@ -802,6 +840,7 @@ body {
     align-items: center;
     gap: 35px;
 }
+
 
 .newsletter .para {
     align-items: center;
@@ -814,6 +853,13 @@ body {
     align-items: center;
     padding-left: 0px;
 
+}.newsletter .advice p {
+    width: 469px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align:center;
+    color: #737373;
+    margin: 0;
 }
 
 input {
@@ -828,11 +874,7 @@ input {
     padding-bottom: 80px;
     display: flex;
 }
-.information{
-    display: flex;
-    align-items: center;
-    gap: 85px;
-}
+
 
 .more_info {
     display: flex;
@@ -846,6 +888,14 @@ input {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+.about h5{
+font-size: 16px;
+font-weight: 700;
+}
+.contact h5{
+font-size: 16px;
+font-weight: 700;
 }
 
 .about ul {
@@ -893,7 +943,9 @@ input {
     font-size: 14px;
 
 }
-
+ h2,h3,h5,h6{
+    margin: 0;
+}
 .contact .material-symbols-outlined {
     color: #23A6F0;
     font-size: 25px;
@@ -908,14 +960,16 @@ input {
 .online_platforms {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 1147px;
+    justify-content: center;
+    gap: 47%;
+    margin-bottom: 20px;
 }
 
 .online_platforms p {
     font-size: 14px;
     color: #737373;
     font-weight: 700;
+    margin: 0;
 }
 
 .platforms {
@@ -984,4 +1038,7 @@ input {
 }
 input:hover{
     border-color: #23A6F0;
+}
+.card_icon button .material-symbols-outlined:hover {
+    font-size: 250%;
 }
