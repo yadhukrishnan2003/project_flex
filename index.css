@@ -2,18 +2,19 @@ body {
     margin: 0;
     padding: 0px;
 }
+
 * {
     font-family: Montserrat;
     max-width: 100%;
     font-weight: 700;
-    
+
 }
 
 .container {
     max-width: 1440px;
     margin: auto;
-    
-    
+
+
 }
 
 .color_lightbg {
@@ -44,7 +45,8 @@ body {
 .button {
     padding-left: 280px;
 }
-ul{
+
+ul {
     margin: 0;
 }
 
@@ -60,7 +62,7 @@ ul{
     color: #23A6F0;
     border: none;
     padding: 19px 30px 19px 30px;
-    background-color:transparent;
+    background-color: transparent;
     border-radius: 5px;
 }
 
@@ -88,7 +90,7 @@ ul{
     gap: 20px;
     padding-bottom: 170px;
     padding-left: 120px;
-    
+
 }
 
 .content_intro h3 {
@@ -140,7 +142,7 @@ ul{
     padding: 0px 0px;
     position: relative;
     bottom: 175px;
-    left:0%
+    left: 0%
 }
 
 .box {
@@ -156,8 +158,8 @@ ul{
     padding-right: 60px;
 }
 
- .boxicon {
-    
+.boxicon {
+
     width: 70px;
     height: 76px;
     border-radius: 10px;
@@ -169,19 +171,21 @@ ul{
 
 }
 
- .box:nth-child(1)  .boxicon{
-   background-color:#23A6F0 ;
+.box:nth-child(1) .boxicon {
+    background-color: #23A6F0;
 }
-.box:nth-child(2)  .boxicon{
-    background-color:#40BB15 ;
- }
- .box:nth-child(3)  .boxicon{
+
+.box:nth-child(2) .boxicon {
+    background-color: #40BB15;
+}
+
+.box:nth-child(3) .boxicon {
     background-color: #3C403D;
- }
- 
+}
 
 
- 
+
+
 
 
 .box .material-symbols-outlined {
@@ -267,7 +271,7 @@ ul{
     height: 24px;
     gap: 10px;
     color: #23A6F0;
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .logo {
@@ -288,13 +292,12 @@ ul{
 }
 
 .material-symbols-outlined {
-    
+
     font-variation-settings:
         'FILL' 0,
         'wght' 100,
         'GRAD' 0,
         'opsz' 24
-
 }
 
 
@@ -364,7 +367,8 @@ ul{
     bottom: 24px;
     gap: 10px;
 }
-.card_icon button{
+
+.card_icon button {
     background-color: #FFFFFF;
     width: 47px;
     height: 47px;
@@ -384,23 +388,24 @@ ul{
     padding-top: 5px;
 
 }
- .card_icon :nth-child(3) {
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
 
-  
+.card_icon :nth-child(3) {
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+    }
+
+
 }
 
 
 .card_icon .material-symbols-outlined {
 
     font-variation-settings:
-        
+
         'wght' 400,
         'GRAD' 0,
         'opsz' 24
@@ -723,10 +728,11 @@ ul{
 
 
 
-.review_block{
+.review_block {
     display: flex;
     align-items: center;
 }
+
 .blockes {
     max-width: 100%;
     display: flex;
@@ -750,6 +756,7 @@ ul{
     align-items: center;
     gap: 15px;
 }
+
 .star {
     display: flex;
     justify-content: center;
@@ -777,6 +784,7 @@ ul{
         'GRAD' 0,
         'opsz' 24
 }
+
 .review .star :nth-child(5).material-symbols-outlined {
     font-size: 28px;
     color: #F3CD03;
@@ -791,10 +799,10 @@ ul{
     display: flex;
     width: 0px;
     gap: 5px;
-    background-color:none;
+    background-color: none;
 }
 
-.review p  {
+.review p {
     width: 159px;
     display: flex;
     justify-content: center;
@@ -832,7 +840,8 @@ ul{
     color: #252B42;
     margin: 0px;
 }
-.footer{
+
+.footer {
     margin-top: 51px;
     display: flex;
     flex-direction: column;
@@ -860,17 +869,19 @@ ul{
     align-items: center;
     padding-left: 0px;
 
-}.color_lightbg .advice p {
+}
+
+.color_lightbg .advice p {
     width: 469px;
     font-size: 14px;
     font-weight: 500;
-    text-align:center;
+    text-align: center;
     color: #737373;
     margin: 0;
 }
 
 input {
-    border:none;
+    border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     width: 470px;
@@ -885,25 +896,24 @@ input {
 
 
 .more_info {
-    display: flex;
-    max-width: 100%;
-    gap: 75px;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
 }
 
 .about {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
-.about h5{
-font-size: 16px;
-font-weight: 700;
+
+.about h5 {
+    font-size: 16px;
+    font-weight: 700;
 }
-.contact h5{
-font-size: 16px;
-font-weight: 700;
+
+.contact h5 {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .about ul {
@@ -928,7 +938,7 @@ font-weight: 700;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 345px;
+    width: 340px;
 }
 
 .contact ul {
@@ -947,14 +957,19 @@ font-weight: 700;
     text-decoration: none;
     color: #737373;
     display: flex;
-    
+
     align-items: center;
     font-size: 14px;
 
 }
- h2,h3,h5,h6{
+
+h2,
+h3,
+h5,
+h6 {
     margin: 0;
 }
+
 .contact .material-symbols-outlined {
     color: #23A6F0;
     font-size: 25px;
@@ -1034,17 +1049,20 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
 }
-.filled_button:hover{
+
+.filled_button:hover {
     background: none;
     color: #23A6F0;
 }
 
-.link ul a:hover{
+.link ul a:hover {
     color: #23A6F0;
 }
-input:hover{
+
+input:hover {
     border-color: #23A6F0;
 }
+
 .card_icon button .material-symbols-outlined:hover {
     font-size: 250%;
 }
