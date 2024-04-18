@@ -16,7 +16,7 @@ body {
     
 }
 
-.frond_page {
+.color_lightbg {
     position: relative;
     background-color: #e6f2ff;
     display: flex;
@@ -59,7 +59,7 @@ ul{
 .hollow_button {
     color: #23A6F0;
     border: none;
-    padding: 15px 25px 15px 25px;
+    padding: 19px 30px 19px 30px;
     background-color: #e6f2ff;
     border-radius: 5px;
 }
@@ -213,7 +213,7 @@ ul{
 
 
 
-.activities {
+.white_bg {
     margin: 10px 178px 0px 147px;
     display: flex;
     align-items: center;
@@ -245,20 +245,20 @@ ul{
     gap: 35px;
 }
 
-.activities h2 {
+.white_bg h2 {
     color: #252B42;
     font-size: 40px;
     margin: 0;
 }
 
-.activities .para {
+.white_bg .para {
 
     font-weight: 400;
     font-size: 14px;
     color: #737373;
 }
 
-.activities .hollow_button {
+.white_bg .hollow_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -300,7 +300,7 @@ ul{
 
 
 
-.fecility_section {
+.color_darkbg {
     background-color: #252B42;
     display: flex;
     align-items: center;
@@ -748,7 +748,13 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
+}
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
 }
 
 .parastar {
@@ -759,7 +765,7 @@ ul{
 }
 
 .ratestar {
-    width: 159px;
+    width: 195px;
 }
 
 .review .star .material-symbols-outlined {
@@ -806,6 +812,7 @@ ul{
     align-items: center;
     gap: 15px;
     padding-right: 12px;
+    padding-top: 15px;
 }
 
 .profile img {
@@ -825,14 +832,14 @@ ul{
     color: #252B42;
     margin: 0px;
 }
-.details{
+.footer{
     margin-top: 51px;
     display: flex;
     flex-direction: column;
     gap: 70px;
 }
 
-.newsletter {
+.color_lightbg {
     max-width: 100%;
     background: #ECF4FF;
     display: flex;
@@ -842,18 +849,18 @@ ul{
 }
 
 
-.newsletter .para {
+.color_lightbg .para {
     align-items: center;
     padding-left: 0px;
     gap: 10px;
     padding-top: 0px;
 }
 
-.newsletter .advice {
+.color_lightbg .advice {
     align-items: center;
     padding-left: 0px;
 
-}.newsletter .advice p {
+}.color_lightbg .advice p {
     width: 469px;
     font-size: 14px;
     font-weight: 500;
@@ -866,7 +873,8 @@ input {
     border:none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    width: 485px;
+    width: 470px;
+    padding-left: 15px;
 }
 
 .subscribe {
@@ -920,6 +928,7 @@ font-weight: 700;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: 345px;
 }
 
 .contact ul {
@@ -938,7 +947,7 @@ font-weight: 700;
     text-decoration: none;
     color: #737373;
     display: flex;
-
+    
     align-items: center;
     font-size: 14px;
 
@@ -957,15 +966,15 @@ font-weight: 700;
         'opsz' 24
 }
 
-.online_platforms {
+.footer_tail {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 47%;
     margin-bottom: 20px;
+    margin-top: 85px;
 }
 
-.online_platforms p {
+.footer_tail p {
     font-size: 14px;
     color: #737373;
     font-weight: 700;
@@ -1029,10 +1038,7 @@ font-weight: 700;
     background: none;
     color: #23A6F0;
 }
-.hollow_button:hover{
-    background-color: #23A6F0;
-    color: #FFFFFF;
-}
+
 .link ul a:hover{
     color: #23A6F0;
 }
