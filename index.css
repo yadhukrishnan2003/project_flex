@@ -60,7 +60,7 @@ ul{
     color: #23A6F0;
     border: none;
     padding: 19px 30px 19px 30px;
-    background-color: #e6f2ff;
+    background-color:transparent;
     border-radius: 5px;
 }
 
@@ -114,9 +114,9 @@ ul{
     margin: 0;
 }
 
-.home_page .hollow_button {
+.homepage_buttons .hollow_button {
     color: #23A6F0;
-    padding: 15px 25px 15px 25px;
+    padding: 13.5px 25px 13.5px 25px;
     background-color: transparent;
     border-radius: 5px;
     border-style: solid;
