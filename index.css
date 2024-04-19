@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1050px;
     margin: auto;
 
 
@@ -43,7 +43,7 @@ body {
 
 }
 .header .button{
-    padding-right: 125px;
+    padding-right: 75px;
 }
 
 ul {
@@ -128,20 +128,18 @@ ul {
 .home_page img {
     display: flex;
     position: relative;
-    left: 15%;
-    top: 10px;
-    width: 548px;
+    left: 116px;
+    top: 12px;
 }
 
 .boxes {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 35px;
-    padding: 0px 0px;
+    gap: 40px;
     position: relative;
-    bottom: 147px;
-    left: 70px
+    bottom: 125px;
+    left: 0px
 }
 
 .box {
@@ -150,7 +148,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 46px 51px 46px;
+    padding: 46px 50px 46px;
     gap: 20px;
     background-color: #FFFFFF;
 }
@@ -215,10 +213,8 @@ ul {
 
 
 .white_bg {
-    margin: 10px 178px 0px 147px;
     display: flex;
     align-items: center;
-    position: relative;
 
 }
 
@@ -232,13 +228,10 @@ ul {
 
 .image {
     width: 675px;
-    gap: 30px;
-    margin-left: 40px;
 }
 
 .text {
-    width: 400px;
-    max-height: 292px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -400,6 +393,7 @@ ul {
 
 
 .card_icon .material-symbols-outlined {
+    
 
     font-variation-settings:
 
@@ -587,7 +581,7 @@ ul {
 
 .pricing {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
     position: relative;
 }
@@ -838,13 +832,7 @@ ul {
     margin: 0px;
 }
 
-.footer {
-    margin-top: 51px;
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
-    padding-left: 160px;
-}
+
 
 .color_lightbg {
     max-width: 100%;
@@ -864,6 +852,7 @@ ul {
 }
 
 .color_lightbg .advice {
+    width: 1050px;
     align-items: center;
     padding-left: 0px;
 
@@ -884,16 +873,20 @@ input {
     border-bottom-left-radius: 5px;
     width: 470px;
     padding-left: 15px;
+    height: 43px;
 }
 
 .subscribe {
     margin: 0px;
     padding-bottom: 80px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.more_info {
+.footer {
+    margin-top: 51px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
 }
@@ -955,7 +948,7 @@ input {
     text-decoration: none;
     color: #737373;
     display: flex;
-
+    gap: 15px;
     align-items: center;
     font-size: 14px;
 
