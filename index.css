@@ -60,9 +60,10 @@ ul {
 
 .hollow_button {
     color: #23A6F0;
-    border: none;
-    padding: 15px 25px 15px 25px;
+    size: 14px;
+    border-color: transparent;
     background-color: transparent;
+    padding: 18px 25px 18px 25px;
     border-radius: 5px;
 }
 
@@ -70,7 +71,7 @@ ul {
     color: #FFFFFF;
     size: 14px;
     background-color: #23A6F0;
-    border-color: #23A6F0;
+    
     padding: 15px 25px 15px 25px;
     border: 2px solid;
     border-radius: 5px;
@@ -260,7 +261,6 @@ ul {
     align-items: center;
     padding-left: 0;
     width: 107px;
-    height: 24px;
     gap: 10px;
     color: #23A6F0;
     background-color: transparent;
@@ -325,7 +325,6 @@ ul {
 
 .fecility_advice .para p {
     width: 469px;
-    height: 40px;
     font-size: 14px;
     color: #FFFFFF;
     font-weight: 400;
@@ -502,7 +501,6 @@ ul {
 
 .price_margine {
     width: 126px;
-    height: 34px;
     padding: 5px 3px 5px 3px;
     display: flex;
     align-items: center;
@@ -659,7 +657,6 @@ ul {
     display: flex;
     align-items: center;
     width: 243px;
-    height: 32px;
     gap: 10px;
 }
 
@@ -1022,6 +1019,10 @@ h2,h3,h5,h6 {
     border: 2px solid;
     border-color: #23A6F0;
 }
+.hollow_button:hover{
+    background-color: #23A6F0;
+    color: #FFFFFF;
+}
 
 .link ul a:hover {
     color: #23A6F0;
@@ -1029,4 +1030,10 @@ h2,h3,h5,h6 {
 
 .card_icon button .material-symbols-outlined:hover {
     font-size: 250%;
+}
+.card_img img{
+    height: 300px;
+}
+.filled_button{
+    border-color: #23A6F0;
 }
