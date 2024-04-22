@@ -869,11 +869,12 @@ ul {
 }
 
 input {
-    border: none;
     border-radius: 5px 0px 0px 5px;
     width: 470px;
     padding-left: 15px;
-    height: 45px;
+    height: 40px;
+    border-color: #FFFFFF;
+    border-style: solid;
 }
 
 .subscribe {
@@ -886,6 +887,8 @@ input {
 }
 .subscribe .filled_button{
     border-radius: 0px 5px 5px 0px;
+    height: 45px;
+    border-color: #23A6F0;
 }
 
 
@@ -1022,10 +1025,6 @@ h2,h3,h5,h6 {
 
 .link ul a:hover {
     color: #23A6F0;
-}
-
-input:hover {
-    border-color: #23A6F0;
 }
 
 .card_icon button .material-symbols-outlined:hover {
