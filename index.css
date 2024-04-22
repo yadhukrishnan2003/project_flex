@@ -25,7 +25,7 @@ body {
     margin: 0;
 }
 
-.header {
+.navigator {
     display: flex;
     padding: 20px 0;
     align-items: center;
@@ -42,7 +42,7 @@ body {
 
 
 }
-.header .button{
+.navigator .button{
     padding-right: 75px;
 }
 
@@ -70,6 +70,7 @@ ul {
     color: #FFFFFF;
     size: 14px;
     background-color: #23A6F0;
+    border-color: #23A6F0;
     padding: 15px 25px 15px 25px;
     border: 2px solid;
     border-radius: 5px;
@@ -1010,13 +1011,7 @@ h2,h3,h5,h6 {
 
 @media screen and (max-width: 600px) {}
 
-.navigator {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .filled_button:hover {
     background: none;
