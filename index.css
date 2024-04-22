@@ -364,7 +364,9 @@ ul {
     height: 47px;
     border-radius: 45px;
     border: none;
-    padding-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .iconbg {
@@ -601,15 +603,22 @@ ul {
 }
 
 .frame .iconbg {
-    width: 102px;
+    width: 96px;
     height: 96px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 200px;
     background-color: #23A6F0;
 }
 
 .j .material-symbols-outlined {
     color: #FFFFFF;
-    font-size: 55px;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-variation-settings:
         'FILL' 1,
         'wght' 400,
@@ -665,6 +674,9 @@ ul {
     background: #2DC071;
     color: #FFFFFF;
     border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .list_text {
@@ -697,7 +709,7 @@ ul {
     background-color: #E77C40;
     display: flex;
     align-items: center;
-    width: 92px;
+    width: 86px;
     height: 86px;
     border-radius: 200px;
     justify-content: center;
