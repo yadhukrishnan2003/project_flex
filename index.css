@@ -61,7 +61,7 @@ ul {
 .hollow_button {
     color: #23A6F0;
     border: none;
-    padding: 19px 30px 19px 30px;
+    padding: 15px 25px 15px 25px;
     background-color: transparent;
     border-radius: 5px;
 }
@@ -71,14 +71,14 @@ ul {
     size: 14px;
     background-color: #23A6F0;
     padding: 15px 25px 15px 25px;
-    border: none;
+    border: 2px solid;
     border-radius: 5px;
     gap: 15px;
     display: inline-flex;
     align-items: center;
 }
 
-.home_page {
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,14 +99,14 @@ ul {
     margin: 0;
 }
 
-.home_page h1 {
+.banner h1 {
     font-size: 58px;
     width: 542px;
     margin: 0;
 
 }
 
-.home_page h2 {
+.banner h2 {
     color: #737373;
     font-weight: 500;
     font-size: 20px;
@@ -115,9 +115,9 @@ ul {
     margin: 0;
 }
 
-.homepage_buttons .hollow_button {
+.banner_buttons .hollow_button {
     color: #23A6F0;
-    padding: 13.5px 25px 13.5px 25px;
+    padding: 15px 25px 15px 25px;
     background-color: transparent;
     border-radius: 5px;
     border-style: solid;
@@ -125,20 +125,21 @@ ul {
     border-width: 2px;
 }
 
-.home_page img {
+
+
+.banner img {
     display: flex;
     position: relative;
     left: 116px;
     top: 12px;
 }
 
-.boxes {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 40px;
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     position: relative;
     bottom: 125px;
+    gap: 40px;
     left: 0px
 }
 
@@ -333,14 +334,13 @@ ul {
 .fecilities {
     max-width: 100%;
     gap: 30px;
-    display: flex;
-    justify-content: center;
     padding-bottom: 185px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .services {
     background-color: #FFFFFF;
-    width: 340px;
 }
 
 .card_img {
@@ -419,7 +419,6 @@ ul {
 
 .engdep {
     width: 155px;
-    height: 24px;
     color: #23A6F0;
     font-size: 14px;
 
@@ -464,20 +463,20 @@ ul {
     margin: 0;
 }
 
-.card_img::before {
-    content: "sale";
+.sale_tag {
+
     font-size: 16px;
     color: #FFFFFF;
     justify-content: center;
     width: 51px;
-    height: 24px;
     display: flex;
     background-color: #E74040;
-    margin-top: 25px;
     position: absolute;
     border-radius: 3px;
     padding-top: 3px;
+    padding-bottom: 3px;
     left: 5%;
+    top: 15px;
 }
 
 .sale {
@@ -569,6 +568,7 @@ ul {
 .advice h2 {
     color: #252B42;
     margin: 0;
+    font-size: 40px;
 }
 
 .advice p {
@@ -869,19 +869,22 @@ ul {
 
 input {
     border: none;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     width: 470px;
     padding-left: 15px;
-    height: 43px;
+    height: 45px;
 }
 
 .subscribe {
     margin: 0px;
     padding-bottom: 80px;
+    border-radius: 0px 5px 5px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.subscribe .filled_button{
+    border-radius: 0px 5px 5px 0px;
 }
 
 
@@ -922,46 +925,18 @@ input {
     color: #737373;
     font-size: 14px;
     text-decoration: none;
-
-}
-
-.contact {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 340px;
-}
-
-.contact ul {
-    padding: 0px;
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.contact li {
-    list-style: none;
-}
-
-.contact a {
-    text-decoration: none;
-    color: #737373;
-    display: flex;
-    gap: 15px;
     align-items: center;
-    font-size: 14px;
+    gap: 10px;
 
 }
 
-h2,
-h3,
-h5,
-h6 {
+
+h2,h3,h5,h6 {
     margin: 0;
 }
 
-.contact .material-symbols-outlined {
+.about .material-symbols-outlined {
     color: #23A6F0;
     font-size: 25px;
     font-weight: 700;
@@ -1009,7 +984,7 @@ h6 {
 }
 
 .fa-facebook {
-    background: #3B5998;
+    background:#23A6F0;
     color: white;
     border-radius: 200px;
     width: 14px;
@@ -1017,19 +992,20 @@ h6 {
 }
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    background-color: #23A6F0;
+    color:white;
     border-radius: 200px;
     width: 14px;
     height: 14px;
 }
 
 .fa-instagram {
-    background: red;
-    color: white;
+    background-color: #E74040;
+    color:white;
     border-radius: 200px;
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
+    font-size: 28px;
 }
 
 @media screen and (max-width: 600px) {}
@@ -1045,6 +1021,8 @@ h6 {
 .filled_button:hover {
     background: none;
     color: #23A6F0;
+    border: 2px solid;
+    border-color: #23A6F0;
 }
 
 .link ul a:hover {
