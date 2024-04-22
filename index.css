@@ -301,7 +301,7 @@ ul {
     align-items: center;
 }
 
-.fecility_advice {
+.color_darkbg .advice {
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -311,19 +311,19 @@ ul {
     margin: 0;
 }
 
-.fecility_advice h6 {
+.color_darkbg .advice h6 {
     color: #23A6F0;
     margin: 0;
 
 }
 
-.fecility_advice h2 {
+.color_darkbg .advice h2 {
     color: #FFFFFF;
     font-size: 40px;
     margin: 0;
 }
 
-.fecility_advice .para p {
+.color_darkbg .advice .para p {
     width: 469px;
     font-size: 14px;
     color: #FFFFFF;
@@ -1048,4 +1048,8 @@ h2,h3,h5,h6 {
 }
 .filled_button{
     border-color: #23A6F0;
+}
+.text .hollow_button:hover{
+    background-color: transparent;
+    color: #23A6F0;
 }
