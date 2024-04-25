@@ -34,6 +34,7 @@ body {
 }
 
 .site_id {
+    gap: 55px;
     font-size: 24px;
     color: #252B42;
     display: flex;
@@ -45,16 +46,27 @@ body {
 .navigator .button{
     padding-right: 75px;
 }
+.link ul{
+    position: relative;
+}
 
-ul {
+ .link ul {
     margin: 0;
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    padding: 0;
+}
+.link li{
+    list-style: none;
 }
 
 .link ul a {
-    padding-left: 10px;
     font-size: 14px;
     color: #737373;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -1021,7 +1033,7 @@ h2,h3,h5,h6 {
     font-size: 28px;
 }
 
-@media screen and (max-width: 600px) {}
+
 
 
 
@@ -1052,4 +1064,30 @@ h2,h3,h5,h6 {
 .text .hollow_button:hover{
     background-color: transparent;
     color: #23A6F0;
+}
+.link .material-symbols-outlined{
+    font-size: 35px
+}
+.dropdown ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+
+}
+.dropdown li {
+    padding: 10px 10px;
+}
+.dropdown{
+    display: none;
+    max-width: 130px;
+    position: absolute;
+    top: 100%;
+    background-color: #FFFFFF;
+}
+.link li:hover .dropdown{
+    display: block;
+}
+@media(max-width: 1024px) {
+
 }
