@@ -1,0 +1,94 @@
+
+@media(max-width:768px){
+    .container{
+        margin: auto;
+        padding: 0px 45px;
+        
+    }
+    .color_lightbg{
+        
+        
+    }
+    .banner{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .banner img{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+    .content_intro{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .button{
+        padding-left: 75px;
+    }
+    .site_id{
+        padding-right: 75px;
+    }
+    .banner h2{
+        width: auto;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        bottom: 32px;
+    }
+    .box{
+        text-align: center;
+        align-items: center;
+    }
+    .contents{
+        gap:0;
+    }
+    .color_darkbg .advice{
+        align-items: center;
+        text-align: center;
+    }
+    .fecilities {
+        gap: 30px;
+        padding-bottom: 185px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .card_img img{
+        width: 369px;
+    }
+    .advice{
+        align-items: center;
+        text-align: center;
+    }
+    .pricing {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .popup {
+        top: -2%;
+        right: 12%;
+    }
+    .review{
+        width: auto;
+    }
+    input{
+        width: 250px;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .about{
+        padding-top: 30px;
+    }
+    .about ul{
+        margin: 0;
+    }
+    .footer_tail{
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+    }
+}
