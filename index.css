@@ -235,6 +235,7 @@ body {
 .white_bg {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -313,6 +314,7 @@ body {
     background-color: #252B42;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .color_darkbg .advice {
@@ -338,7 +340,6 @@ body {
 }
 
 .color_darkbg .advice .para p {
-    width: 469px;
     font-size: 14px;
     color: #FFFFFF;
     font-weight: 400;
@@ -567,6 +568,7 @@ body {
 }
 
 .advice {
+    width: 565px;
 
     display: flex;
     flex-direction: column;
@@ -587,7 +589,6 @@ body {
 }
 
 .advice p {
-    width: 469px;
     font-size: 14px;
     font-weight: 500;
     color: #737373;
