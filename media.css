@@ -111,6 +111,9 @@
         padding: 0px 25px;
         
     }
+    .advice h2{
+        font-size: 28px;
+    }
     .site_id h3{
         font-size: 16px;
     }
@@ -125,6 +128,7 @@
     }
     .banner h1{
         font-size: 36px;
+        width: 490px;
     }
     .boxes {
         grid-template-columns: 1fr;
@@ -137,29 +141,65 @@
     .color_darkbg .advice h2 {
         font-size: 28px;
     }
+    .color_darkbg .advice{
+        width: 490px;
+    }
     .color_darkbg{
         align-items: center;
     }
     .fecilities{
-        grid-template-columns: 1fr;
-        width: 410px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services{
+        width: 350px;
     }
     .card_img img {
         width: 410px;
     }
     .pricing {
         gap: 0;
-        grid-template-columns: 1fr;
-        width: 410px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
     .frame{
-        width: 410px;
+        align-items: center;
     }
-
-}
-@media(max-width:1050px){
-    .hamburger .material-symbols-outlined{
-        display: none;
+    .information{
+        align-items: center;
+        text-align: center;
+    }
+    .advice {
+        width: 490px;
+        align-items: center;
+        text-align: center;
     }
     
+    .color_lightbg .advice {
+        width: 490px;
+    }
+    .rating{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .text h2{
+        font-size: 24px;
+    }
+    .text::before {
+        content: "";
+        width: 70px;
+        height: 5px;
+        display: flex;
+        background-color: #dd0c0c;
+        gap: 20px;
+        margin-top: 25px;
+    }
+    .popup{
+        top: 33%;
+        left: 69%;
+    }
+
 }

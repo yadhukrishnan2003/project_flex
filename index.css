@@ -33,9 +33,12 @@ body {
     justify-content: space-between;
     margin: 0 auto;
 }
+.site_id .hamburger .material-symbols-outlined{
+    display: none;
+}
 
 .site_id {
-    gap: 55px;
+    
     font-size: 24px;
     color: #252B42;
     display: flex;
@@ -43,6 +46,8 @@ body {
     font-weight: 700;
 }
 .site_id h3{
+    padding-right: 55px;
+
     font-size: 24px;
     color: #252B42;
 }
