@@ -1,8 +1,69 @@
 
+@media(max-width:1100px) {
+    .container{
+        margin: 0;
+        padding: 0px 25px;
+    }
+    .banner img{
+        left: 2px;
+    }
+    .banner h1{
+        width: 500px;
+    }
+    .advice p{
+        width: 100%;
+
+    } 
+    .box{
+        padding: 46px 50px 46px ;
+        width: 205px;
+        gap: 15px;
+    }  
+}
+
+
+@media(max-width:1024px){
+    .container{
+        padding: 0px 25px;
+    }
+    .banner img {
+        left: 25px;
+    }
+    .boxes{
+        top: -40px;
+
+    }
+    .box{
+        padding: 35px 35px;
+    }
+    .image img{
+        width: 450px;
+    }
+    .pricing{
+        gap: 15px;
+    }
+    .services{
+        max-width: 306px;
+    }
+    .frame{
+        width: 306px;
+    }
+    .information{
+        margin: 30px 30px 0px 30px;
+    }
+    .footer_tail{
+        gap: 0;
+        justify-content: space-around;
+    }
+    .fecilities{
+        gap: 15px;
+    }
+}
 @media(max-width:768px){
+    
     .container{
         margin: auto;
-        padding: 0px 45px;
+        padding: 0px 25px;
         
     }
     .hamburger .material-symbols-outlined{
@@ -20,7 +81,7 @@
         justify-content: center;
         flex-direction: column;
     }
-    .banner img{
+    .banner .picture img{
         display: none;
     }
     .link{
@@ -28,29 +89,33 @@
     }
     .content_intro{
         text-align: center;
+        align-items: center;
         margin-top: 30px;
     }
-    .navigator{
-        gap: 80px;
-    }
+    
     .site_id{
     
         gap: 20px;
     }
-    .banner h2{
-        width: auto;
+    .site_id h3{
+        font-size: 18px;
+    }
+
+    .banner h1{
+        width: 550px;
     }
     .boxes{
         display: grid;
         grid-template-columns: 1fr 1fr;
         position: relative;
         bottom: 32px;
+        gap: 10px;
     }
     .box{
         text-align: center;
         align-items: center;
     }
-    box_title {
+    .box_title {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -59,26 +124,58 @@
         gap:0;
     }
     .color_darkbg .advice{
+        width: 550px;
         align-items: center;
         text-align: center;
     }
-    .fecilities {
-        gap: 30px;
-        padding-bottom: 185px;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
+    .contended{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    .logo{
+        padding-left: 0;
+    }
+    .color_darkbg .fecilities {
+        gap: 20px;
+        padding-bottom: 185px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .fecilities .services {
+        width: 286px;
+    }
+    .color_darkbg .advice h2 {
+        font-size: 36px;
+    }
+    .color_darkbg .advice .para p{
+        width: 450px;
+    }
+
     .card_img img{
         width: 369px;
     }
     .advice{
+        width: 550px;
         align-items: center;
         text-align: center;
     }
+    .advice p{
+        width: 450px;
+    }
     .white_bg .pricing {
-        display: grid;
-        gap: 30px;
-        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+    }
+    .rating{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px;
     }
     .popup {
         top: -2%;
@@ -105,10 +202,54 @@
         gap: 10px;
     }
 }
+@media(max-width:600px){
+    .container{
+        margin: auto;
+        padding: 0px 25px;
+        
+    }
+    .site_id h3{
+        padding: 0;
+    }
+    .banner h1{
+        width: 492px;
+        font-size: 38px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .color_darkbg .advice h2 {
+        font-size: 27px;
+    }
+    .advice h2{
+        font-size: 28px;
+
+    }
+    .color_darkbg .advice {
+        width: 385px;
+    }
+    .advice {
+        width: 385px;
+    }
+    .popup{
+        left: 63%;
+        top: 34%;
+        width: 86px;
+    }
+    .rating{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 @media(max-width:540px){
     .container{
         margin: auto;
-        padding: 0px 25px 0px 25px;
+        padding: 0px 20px;
         
     }
     .advice h2{
@@ -127,11 +268,13 @@
         justify-content: center;
     }
     .banner h1{
-        font-size: 36px;
-        width: 490px;
+        font-size: 30px;
+        width: 384px;
     }
     .boxes {
         grid-template-columns: 1fr;
+        
+        
     }
     .box_title {
         display: flex;
@@ -140,6 +283,15 @@
     }
     .color_darkbg .advice h2 {
         font-size: 28px;
+    }
+    .image img{
+        display: none;
+    }
+    .contents .text{
+        width: 280px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
     .color_darkbg{
@@ -177,17 +329,18 @@
         text-align: center;
     }
     .advice {
-        width: 490px;
+        width: 386px;
         align-items: center;
         text-align: center;
     }
     
     .color_lightbg .advice {
-        width: 490px;
+        width: 386px;
     }
     .rating{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .text h2{
         font-size: 24px;
@@ -207,108 +360,254 @@
     }
 
 }
-@media(max-width:1020px){
-    .container{
-        padding: 0px 25px;
-    }
-    .banner img {
-        left: 25px;
-    }
-    .boxes{
-        top: -40px;
 
-    }
-    .box{
-        padding: 35px 35px;
-    }
-    .image img{
-        width: 450px;
-    }
-    .pricing{
-        display: flex;
-        gap: 10px;
-    }
-    .frame{
-        width: 310px;
-    }
-    .information{
-        margin: 30px 30px 0px 30px;
-    }
-    .footer_tail{
-        gap: 0;
-        justify-content: space-around;
-    }
-}
+
 @media(max-width:420px){
-    .hollow_button{
-        display: none;
+    .container{
+        padding: 0px 10px;
+    }
+    .navigator{
+        gap: 0px;
+    }
+    .site_id h3{
+        padding-right: 0;
+        font-size: 16px;
     }
     .banner h1{
         font-size: 24px;
-        width: 330px;
+        width: 370px;
     }
     .banner h2{
-        font-size: 14px;
-    }
-    .site_id h3{
-        padding: 0;
+        font-size: 18px;
+        width: 320px;
     }
     .boxes{
-        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        padding: 20px 0px;
+        width: 325px;
     }
     .image img{
         display: none;
     }
-    .text{
-        width: 300px;
-        text-align: center;
+    .contents{
         align-items: center;
-    }
-    .logo{
-        gap: 0;
-    }
-    .color_darkbg .advice h2{
-        font-size: 24px;
-    }
-     .white_bg .advice{
         justify-content: center;
+    }
+    .text{
         align-items: center;
-        width: 340px;
+        justify-content: center;
+        text-align: center;
+        padding: 35px 0px ;
     }
-    .popup{
-        left: 72%;
-    }
-    .popup .iconbg{
-        height: 72px;
-        width: 72px;
-    }
-    .popup .iconbg h5{
+    .text h2{
         font-size: 22px;
     }
-    .white_bg .blockes{
-        align-items: center;
-        justify-content: center;
+    .text .hollow_button{
+        padding: 18px 0px;
     }
-    .color_lightbg .advice{
-        width: 340px;
+    .logo{
+        padding: 50px 0px;
+    }
+    .color_darkbg .advice h2 {
+        font-size: 20px;
     }
     .color_darkbg .advice{
-        width: 340px;
+        width: 305px;
     }
-    .frame{
-        width: 280px;
+    .advice h2 {
+        font-size: 22px;
     }
-    .information{
-        margin: 0px 0px 0px 0px;
+    .advice p{
+        font-size: 12px;
+        width: 350px;
     }
-    .white_bg{
-        align-items: center;
+    .frame .popup .iconbg{
+        width: 72px;
+        height: 72px;
     }
-    .rating{
+    .popup{
+        width: 73px;
+    }
+    .popup .iconbg h5 {
+        font-size: 20px;
+    }
+    .rating {
         grid-template-columns: 1fr;
     }
+    .color_lightbg .advice p {
+        width: 350px;
+    }
+    .color_lightbg .advice {
+        width: 350px;
+    }
+    .advice{
+        width: 305px;
+    }
+    .subscribe{
+        width: 350px;
+    }
     .footer{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .footer_tail p {
+        font-size: 10px;
+    }
+    .platforms{
+        gap: 5px;
+    }
+    .fa-facebook{
+        width: 12px;
+        height: 12px;
+    }
+    .fa-instagram{
+        width: 14px;
+        height: 14px;
     }
 
+}
+@media(max-width:320px){
+    .container{
+        padding: 0px 10px;
+
+    }
+    .button{
+        display: none;
+
+    }
+    .banner h3{
+        font-size: 12px;
+    }
+    .banner h1{
+        font-size: 20px;
+        width: 365px;
+    }
+    .banner h2{
+        font-size: 16px;
+        width: 280px;
+    }
+    .filled_button {
+        padding: 10px 12px;
+    }
+    .banner_buttons .hollow_button{
+        padding: 10px 13px;
+        
+    }
+    .content_intro{
+        width: 300px;
+    }
+    .box {
+        padding: 15px 0px;
+        width: 300px;
+    }
+    .text {
+        width: 280px;
+    }
+    .advice{
+        width: 300px;
+    }
+    .color_darkbg .advice {
+        width: 300px;
+    }
+    .frame {
+        width: 300px;
+    }
+    .subscribe {
+        width: 300px;
+    }
+    .color_lightbg .advice{
+        width: 300px;
+    }
+}
+
+@media(max-width:1048px){
+    .banner .picture img {
+        position: relative;
+        left: 25px;
+        top: -1px;
+    }
+    .box{
+        padding: 25px 42px;
+        width: 200px;
+    }
+    .services {
+        background-color: #FFFFFF;
+        width: 295px;
+    }
+    .para p{
+        width: 695px;
+    }
+    .frame{
+        width: 295px;
+    }
+    .information {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+@media(max-width:966px){
+    .fecilities{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .color_darkbg .advice {
+        align-items: center;
+        text-align: center;
+    }
+    .pricing{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contended .advice{
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    .popup {
+        top: -1%;
+        right: 17%;
+    }
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner img{
+        top: -1%;
+    }
+    .blockes{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:935px){
+    .banner img{
+        display: none;
+    }
+    .banner{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .rating{
+        gap: 0px;
+    }
+    .review{
+        width: 235px;
+    }
+    .link{
+        display: none;
+    }
+
+    .content_intro{
+        justify-content: center;
+        align-items: center;
+    }
 }

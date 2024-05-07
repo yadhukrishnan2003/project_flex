@@ -19,7 +19,7 @@ body {
 
 .color_lightbg {
     position: relative;
-    background-color: #e6f2ff;
+    background-color: #e6f2ff ;
     display: flex;
     align-items: center;
     margin: 0;
@@ -148,17 +148,15 @@ body {
 
 .banner img {
     display: flex;
-    position: relative;
-    left: 116px;
-    top: 12px;
+    
 }
 
 .boxes{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     position: relative;
-    bottom: 125px;
-    gap: 40px;
+    bottom: 95px;
+    gap: 30px;
     left: 0px
 }
 
@@ -282,7 +280,7 @@ body {
 }
 
 .logo {
-    padding: 50px 0px 50px 25px;
+    padding: 50px 0px 50px 0px;
     gap: 31px;
     display: flex;
     align-items: center;
@@ -356,6 +354,7 @@ body {
 
 .services {
     background-color: #FFFFFF;
+    width: 300px;
 }
 
 .card_img {
@@ -568,7 +567,7 @@ body {
 }
 
 .advice {
-    width: 565px;
+    max-width: 615px;
 
     display: flex;
     flex-direction: column;
@@ -603,14 +602,14 @@ body {
 }
 
 .frame {
-    width: 328px;
+    width: 300px;
     gap: 35px;
     box-shadow: 0px 13px 19px 0px #00000012;
 }
 
 .information {
-    margin-left: 39px;
-    margin-right: 39px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 51px;
     display: flex;
     flex-direction: column;
@@ -759,10 +758,10 @@ body {
 
 
 .rating {
-    display: flex;
+    display: grid;
     gap: 30px;
     max-width: 100%;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .review {
@@ -864,6 +863,7 @@ body {
     background: #ECF4FF;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 35px;
 }
 
