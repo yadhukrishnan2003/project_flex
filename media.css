@@ -510,7 +510,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 300px;
     }
     .fecilities{
         width: 285px;
