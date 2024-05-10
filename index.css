@@ -78,6 +78,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
+    gap: 0;
 }
 
 
