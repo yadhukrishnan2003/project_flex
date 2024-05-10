@@ -13,7 +13,7 @@ body {
 .container {
     max-width: 1050px;
     margin: auto;
-
+    padding: 0 15px;
 
 }
 
@@ -33,7 +33,13 @@ body {
     justify-content: space-between;
     margin: 0 auto;
 }
-.site_id .hamburger .material-symbols-outlined{
+.navigator input {
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+.close_manu{
     display: none;
 }
 
@@ -156,7 +162,7 @@ body {
     grid-template-columns: repeat(3,1fr);
     position: relative;
     bottom: 95px;
-    gap: 30px;
+    gap: 10px;
     left: 0px
 }
 
@@ -595,13 +601,13 @@ body {
 }
 
 .pricing {
-    position: relative;
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .frame {
+    position: relative;
     width: 300px;
     gap: 35px;
     box-shadow: 0px 13px 19px 0px #00000012;
@@ -738,7 +744,8 @@ body {
 .popup {
     position: absolute;
     top: -3%;
-    right: 31%;
+    right: 0;
+    left: 70%;
 }
 
 
