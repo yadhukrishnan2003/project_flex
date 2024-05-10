@@ -76,6 +76,9 @@
         height: 100%;
         display: none;
     }
+    .close_manu{
+        display: none;
+    }
     .content_intro{
         text-align: center;
         align-items: center;
@@ -243,7 +246,7 @@
         font-size: 28px;
     }
     .site_id h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     .hollow_button{
         padding: 10px 14px;
@@ -364,19 +367,18 @@
         padding: 0px 10px;
     }
     .navigator{
-        gap: 10px;
         justify-content: center;
     }
-    .site_id h3{
-        padding-right: 0;
-        font-size: 20px;
-    }
+    
+    
     .navigator .hollow_button {
         padding: 10px 12px;
+        display: none;
     }
     .navigator .filled_button{
         padding: 6px 5px;
         gap: 2px;
+        display: none;
     }
     .banner h1{
         font-size: 24px;
@@ -517,6 +519,10 @@
         border-radius: 5px 5px 5px 5px;
         height: 45px;
     }
+    .site_id h3{
+        padding-right: 0;
+        font-size: 16px;
+    }
 
 }
 @media(max-width:320px){
@@ -529,11 +535,11 @@
 
     }
     .site_id{
-        gap: 45px;
+        font-size: 16px;
     }
     .navigator{
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
     .banner h3{
         font-size: 12px;
@@ -615,7 +621,7 @@
         align-items: center;
     }
 }
-@media(max-width:935px){
+ @media(max-width:935px){
     .banner img{
         display: none;
     }
@@ -635,5 +641,9 @@
     .content_intro{
         justify-content: center;
         align-items: center;
+    }
+    .navigator .site_id h3{
+        font-size: 18px;
+        padding-right: 10px;
     }
 }
