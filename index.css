@@ -34,6 +34,9 @@ body {
     margin: 0 auto;
 }
 .navigator input {
+    width: 40px;
+}
+#check{
     display: none;
 }
 .hamburger{
@@ -50,10 +53,9 @@ body {
     display: flex;
     align-items: center;
     font-weight: 700;
+    gap: 50px;
 }
 .site_id h3{
-    padding-right: 55px;
-
     font-size: 24px;
     color: #252B42;
 }
