@@ -34,7 +34,7 @@ body {
     margin: 0 auto;
 }
 .navigator input {
-    width: 40px;
+    width: 15px;
 }
 #check{
     display: none;
@@ -47,23 +47,25 @@ body {
 }
 
 .site_id {
-    
     font-size: 24px;
     color: #252B42;
     display: flex;
     align-items: center;
     font-weight: 700;
-    gap: 50px;
+    gap: 20px;
 }
 .site_id h3{
     font-size: 24px;
     color: #252B42;
 }
-.link ul{
+.site_id ul{
     position: relative;
 }
+.site_id .hollow_button{
+    display: none;
+}
 
- .link ul {
+ .link  {
     margin: 0;
     display: flex;
     gap: 21px;
@@ -74,7 +76,7 @@ body {
     list-style: none;
 }
 
-.link ul a {
+.site_id ul a {
     font-size: 14px;
     color: #737373;
     text-decoration: none;
@@ -1059,7 +1061,7 @@ h2,h3,h5,h6 {
     color: #FFFFFF;
 }
 
-.link ul a:hover {
+.site_id ul a:hover {
     color: #23A6F0;
 }
 
@@ -1084,6 +1086,7 @@ h2,h3,h5,h6 {
     flex-direction: column;
     align-items: flex-start;
     gap: 0px;
+    padding: 0;
 
 }
 .dropdown li {
