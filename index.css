@@ -327,7 +327,7 @@ body {
 }
 
 .color_darkbg .advice {
-    max-width: 100%;
+    max-width: 615px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -87,8 +87,10 @@
         padding: 0;
         background-color:#aec8ec;
         width: 100%;
-        height: 40vh;
         transition: all 0.5s ease-in-out;
+    }
+    .link li:hover{
+        background-color:;
     }
     .hamburger span {
         display: flex;
@@ -398,6 +400,9 @@
     .site_id .hollow_button:hover{
         background-color: transparent;
         color: #23A6F0;
+    }
+    .hamburger .material-symbols-outlined {
+        font-size: 32px;
     }
     .banner h1{
         font-size: 24px;
